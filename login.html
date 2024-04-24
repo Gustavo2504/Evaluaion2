@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+    <!-- ********* Header *********  -->
+    <nav class="navbar navbar-expand-lg custom-bg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.jfif" alt="Logo de nuestra empresa"
+                    width="84"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon custom"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex align-items-center justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-black fs-1 ms-n3" aria-current="page" href="index.html">Happycomics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-black" href="login.html ">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-black" href="galeria.html ">Galeria</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/marvelrivalstacourssel.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/xmentacaroussel.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/daredevilcourssel.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- ******** Login ******** -->
+    <div class="col d-flex justify-content-center mb-5">
+        <form style="
+        max-width: 750px;
+        width: 80%;
+        display: flex;
+        margin-top: 2rem;
+        flex-direction: column;
+        background: #272727;
+        padding: 45px;
+        border-radius: 6px;
+      ">
+            <h4 style="text-align: center; margin-bottom: 1.5rem" class="text-white">
+                Iniciar sesión
+            </h4>
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label text-white" for="form1Example1">Email address</label>
+                <input type="email" id="form1Example1" class="form-control" style="margin-bottom: 1rem" />
+            </div>
+
+            <!-- Password input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label text-white" for="form1Example2">Password</label>
+                <input type="password" id="form1Example2" class="form-control" style="margin-bottom: 1rem" />
+            </div>
+
+            <!-- Submit button -->
+            <div class="col d-flex justify-content-center">
+                <button data-mdb-ripple-init type="submit" class="btn btn__primary btn-block text-bold" style="
+            width: 300px;
+            height: 40px;
+            background-color: #ffffff;
+            color: rgb(39, 39, 39);
+            font-size: 16px;
+            font-weight: 500;
+          ">
+                    Login
+                </button>
+            </div>
+        </form>
+    </div>
+    <!-- ******** Footer ********* -->
+    <footer class="container rounded mb-3 bg-dark text-white text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-4 fs-3">Asignatura: Programación Front-End</div>
+        <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
